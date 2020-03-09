@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 33419927717967112}
   - component: {fileID: 23824319066539008}
   - component: {fileID: 65370866138397604}
-  - component: {fileID: 114176189579543164}
+  - component: {fileID: 114989225917017320}
   m_Layer: 0
   m_Name: FreeCarPrefab
   m_TagString: CarTag
@@ -384,7 +384,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.8, y: 1, z: 0.7}
   m_Center: {x: 0, y: 0.4, z: 0.07}
---- !u!114 &114176189579543164
+--- !u!114 &114989225917017320
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -392,6 +392,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1286859540516614}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66971b56d76828b4482f229cbe768d4c, type: 3}
+  m_Script: {fileID: 11500000, guid: ef8d55df70587d54bb65583c8e4d68be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

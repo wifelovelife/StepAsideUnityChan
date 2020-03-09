@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UnityChanController : MonoBehaviour {
    
@@ -51,6 +52,10 @@ public class UnityChanController : MonoBehaviour {
             this.turnForce *= this.coefficient; // 左右移動
             this.upForce *= this.coefficient; // ジャンプ
             this.myAnimator.speed *= this.coefficient; // Animatorコンポーネントのspeed
+
+            if (Input.GetMouseButtonDown(0)) {
+                SceneManager.LoadScene("GameScene");
+            }
         }
     }
 
